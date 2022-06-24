@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import axios from 'axios'
 
 //Components
-import "../../hojas-de-estilo/ItemList.css";
-import Item from "./Item";
+import "../ItemListContainer/ItemListContainer.css";
+import ItemCard from "../../Items/Item/ItemCard";
 
 
 const ItemListContainer = () => {
@@ -35,7 +35,7 @@ const ItemListContainer = () => {
                   to={`./ItemDetail/${item.login}`}
                   style={{ textDecoration: "none" }}
                 >
-                  <Item data={item} />
+                  <ItemCard data={item} />
                 </Link>
               </Box>
             </Grid>

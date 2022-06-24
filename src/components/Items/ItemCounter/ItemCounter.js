@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../../hojas-de-estilo/Buttons.css";
+import "../../Items/ItemCounter/Buttons.css";
 
 function ItemCounter({ stock, initial, onAdd }) {
   const [count, setCount] = useState(initial);

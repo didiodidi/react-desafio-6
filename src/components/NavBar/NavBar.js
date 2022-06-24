@@ -1,5 +1,5 @@
 
-import "../../hojas-de-estilo/NavBar.css";
+import "../NavBar/NavBar.css";
 import CartWidget from '../CartWidget/CartWidget'
 
 

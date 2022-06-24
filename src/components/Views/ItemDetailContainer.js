@@ -3,9 +3,8 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 // import { Box, Grid } from "@mui/material";
 //Components
-import "../../hojas-de-estilo/ItemList.css";
-import "../Views/ItemDetail.css"
-import ItemCard from "../Items/Item";
+import "../Views/ItemDetail.css";
+import ItemCard from "../Items/Item/ItemCard";
 
 const ItemDetailContainer = () => {
   const [item, setItem] = useState({});
@@ -21,10 +20,10 @@ const ItemDetailContainer = () => {
   }, [id]);
 
   return (
-    <div className="ItemList-container">        
-		<ItemCard data={item} />        
+    <div className="itemList-container">
+        <ItemCard data={item} />
     </div>
-);
+  );
 };
 
 export default ItemDetailContainer;

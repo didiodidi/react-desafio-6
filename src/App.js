@@ -1,11 +1,11 @@
 import React from "react";
-import "./hojas-de-estilo/style.css";
+import "./style.css";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 //Components
 import NavBar from "./components/NavBar/NavBar";
-import ItemCounter from "./components/Items/ItemCounter";
-import ItemListContainer from "./components/Items/ItemListContainer";
+//import ItemCounter from "../src/components/Items/ItemCounter/ItemCounter";
+import ItemListContainer from "./components/Items/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./components/Views/ItemDetailContainer";
 
 
@@ -18,7 +18,7 @@ const App = () => {
       <div>
         <div>
           <div className = "container">
-            {/* <ItemListContainer/> */}
+            {/* <ItemListContainer/>  */}
           </div> 
 
           {/* <div>
