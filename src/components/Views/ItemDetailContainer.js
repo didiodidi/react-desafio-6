@@ -23,6 +23,7 @@ const ItemDetailContainer = () => {
     <div className="itemList-container">
         <ItemCard data={item} />
     </div>
+    
   );
 };
 

@@ -32,9 +32,9 @@ import "../Item/Item.css"
         </Typography>
       </CardContent>
     </Card>
-    <div className="div-cart">
+    {/* <div className="div-cart">
       <h6>{`Usuario :${login}`}</h6>
-    </div>
+    </div> */}
 
     </>
   );
